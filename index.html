@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Thinkful Tube</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
 <body>
+	<form id="search-term">
+		<input type="text" name="query">
+		<br>
+		<button type="submit">Search</button>
+	</form>
+	<div id="search-results">
+
+	</div>
+	<script src="https://apis.google.com/js/api.js"></script>
+	 <script src="https://apis.google.com/js/client.js?onload=onLoadFn"></script>
 	<script src="//code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
+
 </html>
