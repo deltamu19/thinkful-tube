@@ -6,7 +6,7 @@ body {
 header,
 .main,
 #search-results {
-	width: 80rem;
+	width: 60rem;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -20,7 +20,7 @@ header {
     height: 12rem;
 }
 
-.input,
+#input,
 .search,
 #search-results {
 	-webkit-border-radius: 10;
@@ -28,7 +28,7 @@ header {
   border-radius: 10px;
 }
 
-.input {
+#input {
 	width: 30rem;
 	height: 2.5rem;
 	margin: 2rem;
@@ -52,6 +52,15 @@ header {
 
 #search-results {
 	background-color: #666666;
-	height: 60rem;
+	height: 128rem;
 	display: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin-top: 1rem;
+	display: block;
 }
