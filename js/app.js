@@ -3,6 +3,7 @@ $(function() {
         e.preventDefault();
         var searchTerm = $('#input').val();
         getRequest(searchTerm);
+        document.getElementById('search-term').reset();
     });
 });
 
