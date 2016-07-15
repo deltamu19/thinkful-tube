@@ -5,7 +5,6 @@ $(function() {
         getRequest(searchTerm);
         document.getElementById('search-term').reset();
     });
-
 });
 
 function getRequest(searchTerm) {
